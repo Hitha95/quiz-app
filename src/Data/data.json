@@ -1,0 +1,651 @@
+[
+  {
+    "quizId": "1",
+    "category": "React",
+    "categoryImage": "https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg",
+    "questions": [
+      {
+        "id": "1",
+        "question": "React is mainly used for building ___.",
+        "correctChoice": "3",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Database"
+          },
+          {
+            "id": "2",
+            "text": "Connectivity"
+          },
+          {
+            "id": "3",
+            "text": "User interface"
+          },
+          {
+            "id": "4",
+            "text": "Design Platform"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "question": "The lifecycle methods are mainly used for ___.",
+        "correctChoice": "1",
+        "choices": [
+          {
+            "id": "1",
+            "text": "keeping track of event history"
+          },
+          {
+            "id": "2",
+            "text": "enhancing components"
+          },
+          {
+            "id": "3",
+            "text": "freeing up resources"
+          },
+          {
+            "id": "4",
+            "text": "none of the above"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "question": "___ can be done while multiple elements need to be returned from a component.",
+        "correctChoice": "4",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Abstraction"
+          },
+          {
+            "id": "2",
+            "text": "Packing"
+          },
+          {
+            "id": "3",
+            "text": "Insulation"
+          },
+          {
+            "id": "4",
+            "text": "Wrapping"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "question": "Which is the right way of accessing a function fetch() from an h1 element in JSX?",
+        "correctChoice": "1",
+        "choices": [
+          {
+            "id": "1",
+            "text": "<h1>{fetch()}</h1>"
+          },
+          {
+            "id": "2",
+            "text": "<h1>${fetch()}</h1>"
+          },
+          {
+            "id": "3",
+            "text": "<h1>{fetch}</h1>"
+          },
+          {
+            "id": "4",
+            "text": "<h1>${fetch}</h1>"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "question": "What is used to pass data to a component from outside?",
+        "correctChoice": "4",
+        "choices": [
+          {
+            "id": "1",
+            "text": "setState"
+          },
+          {
+            "id": "2",
+            "text": "render with arguments"
+          },
+          {
+            "id": "3",
+            "text": "PropTypes"
+          },
+          {
+            "id": "4",
+            "text": "props"
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "question": "What will happen if you call setState() inside render() method?",
+        "correctChoice": "4",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Repetitive output appears on the screen"
+          },
+          {
+            "id": "2",
+            "text": "Duplicate key error"
+          },
+          {
+            "id": "3",
+            "text": "Stack overflow error"
+          },
+          {
+            "id": "4",
+            "text": "Nothing happens"
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "question": "How do you write an inline style which specifies the font-size:12px and color:red; in JSX?",
+        "correctChoice": "2",
+        "choices": [
+          {
+            "id": "1",
+            "text": "style={{font-size:12,color:'red'}}"
+          },
+          {
+            "id": "2",
+            "text": "style={{fontSize:'12px',color:'red'}}"
+          },
+          {
+            "id": "3",
+            "text": "style={fontSize:'12px',color:'red'}"
+          },
+          {
+            "id": "4",
+            "text": "style={{font-size:12px,color:'red'}}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "quizId": "2",
+    "category": "CSS",
+    "categoryImage": "https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg",
+    "questions": [
+      {
+        "id": "1",
+        "question": "How can you add space between the border and inner content of the element?",
+        "correctChoice": "2",
+        "choices": [
+          {
+            "id": "1",
+            "text": "margin"
+          },
+          {
+            "id": "2",
+            "text": "padding"
+          },
+          {
+            "id": "3",
+            "text": "border"
+          },
+          {
+            "id": "4",
+            "text": "spacing"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "question": "Which HTML tag specifies an internal style sheet?",
+        "correctChoice": "3",
+        "choices": [
+          {
+            "id": "1",
+            "text": "<css>"
+          },
+          {
+            "id": "2",
+            "text": "<script>"
+          },
+          {
+            "id": "3",
+            "text": "<style>"
+          },
+          {
+            "id": "4",
+            "text": "<meta>"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "question": "Who is making the Web standards?",
+        "correctChoice": "2",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Mozilla"
+          },
+          {
+            "id": "2",
+            "text": "The World Wide Web Consortium"
+          },
+          {
+            "id": "3",
+            "text": "Microsoft"
+          },
+          {
+            "id": "4",
+            "text": "None of the above"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "question": "How can you create a list displaying its items with squares?",
+        "correctChoice": "2",
+        "choices": [
+          {
+            "id": "1",
+            "text": "type: square"
+          },
+          {
+            "id": "2",
+            "text": "list-style-type: square"
+          },
+          {
+            "id": "3",
+            "text": "style-list: square"
+          },
+          {
+            "id": "4",
+            "text": "list-type: square"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "question": "Which selector is used to specify a style for one unique element?",
+        "correctChoice": "1",
+        "choices": [
+          {
+            "id": "1",
+            "text": "id"
+          },
+          {
+            "id": "2",
+            "text": "class"
+          },
+          {
+            "id": "3",
+            "text": "text"
+          },
+          {
+            "id": "4",
+            "text": "style"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "quizId": "3",
+    "category": "TypeScript",
+    "categoryImage": "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Which of the following companies has developed and designed TypeScript?",
+        "correctChoice": "3",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Amazon"
+          },
+          {
+            "id": "2",
+            "text": "TypeScript"
+          },
+          {
+            "id": "3",
+            "text": "Microsoft"
+          },
+          {
+            "id": "4",
+            "text": "Oracle"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "question": "What is the typing principle of typescript?",
+        "correctChoice": "4",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Gradual"
+          },
+          {
+            "id": "2",
+            "text": "Duck"
+          },
+          {
+            "id": "3",
+            "text": "Dynamic"
+          },
+          {
+            "id": "4",
+            "text": "All of the above"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "question": "Which of the following filenames is the extension for typescript?",
+        "correctChoice": "3",
+        "choices": [
+          {
+            "id": "1",
+            "text": ".tt"
+          },
+          {
+            "id": "2",
+            "text": ".nod"
+          },
+          {
+            "id": "3",
+            "text": ".ts"
+          },
+          {
+            "id": "4",
+            "text": ".txt"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "question": "Which of the computer programming languages below has influenced the creation of typescript?",
+        "correctChoice": "4",
+        "choices": [
+          {
+            "id": "1",
+            "text": "JavaScript"
+          },
+          {
+            "id": "2",
+            "text": "Java"
+          },
+          {
+            "id": "3",
+            "text": "C#"
+          },
+          {
+            "id": "4",
+            "text": "All of the above"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "question": "All are backported features of TypeScript, except….",
+        "correctChoice": "4",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Arrows"
+          },
+          {
+            "id": "2",
+            "text": "Classes"
+          },
+          {
+            "id": "3",
+            "text": "Modules"
+          },
+          {
+            "id": "4",
+            "text": "Methods"
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "question": "The advantages of Typescript are...",
+        "correctChoice": "4",
+        "choices": [
+          {
+            "id": "1",
+            "text": "It assists in code structuring."
+          },
+          {
+            "id": "2",
+            "text": "It applies class -based object oriented programming."
+          },
+          {
+            "id": "3",
+            "text": "It introduces coding guidelines."
+          },
+          {
+            "id": "4",
+            "text": "All of the above."
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "question": "Which of the statements below is true about the variables in Typescript?",
+        "correctChoice": "4",
+        "choices": [
+          {
+            "id": "1",
+            "text": "A variable name should include both alphabets and numeric digits."
+          },
+          {
+            "id": "2",
+            "text": "A variable name cannot start with a digit."
+          },
+          {
+            "id": "3",
+            "text": "It cannot include spaces and special characters except for dollar ($) sign and underscore (_)."
+          },
+          {
+            "id": "4",
+            "text": "All of the above."
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "question": "What object oriented terms does Typescript support?",
+        "correctChoice": "4",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Interfaces"
+          },
+          {
+            "id": "2",
+            "text": "Classes"
+          },
+          {
+            "id": "3",
+            "text": "Modules"
+          },
+          {
+            "id": "4",
+            "text": "All of the above"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "quizId": "4",
+    "category": "SQL",
+    "categoryImage": "https://www.vectorlogo.zone/logos/sqlite/sqlite-ar21.svg",
+    "questions": [
+      {
+        "id": "1",
+        "question": "With SQL, how do you select all the columns from a table named Products?",
+        "correctChoice": "4",
+        "choices": [
+          {
+            "id": "1",
+            "text": "SELECT [all] FROM Products"
+          },
+          {
+            "id": "2",
+            "text": "SELECT All Products"
+          },
+          {
+            "id": "3",
+            "text": "SELECT *.Products"
+          },
+          {
+            "id": "4",
+            "text": "SELECT * FROM Products"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "question": "What SQL keyword is applied for sorting the result-set?",
+        "correctChoice": "3",
+        "choices": [
+          {
+            "id": "1",
+            "text": "SORT BY"
+          },
+          {
+            "id": "2",
+            "text": "ORDER"
+          },
+          {
+            "id": "3",
+            "text": "ORDER BY"
+          },
+          {
+            "id": "4",
+            "text": "SORT"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "question": "Which SQL statement is applied for updating data in a database?",
+        "correctChoice": "1",
+        "choices": [
+          {
+            "id": "1",
+            "text": "UPDATE"
+          },
+          {
+            "id": "2",
+            "text": "SAVE AS"
+          },
+          {
+            "id": "3",
+            "text": "MODIFY"
+          },
+          {
+            "id": "4",
+            "text": "SAVE"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "question": "What SQL statement is used to extract data from a database?",
+        "correctChoice": "4",
+        "choices": [
+          {
+            "id": "1",
+            "text": "GET"
+          },
+          {
+            "id": "2",
+            "text": "GET"
+          },
+          {
+            "id": "3",
+            "text": "EXTRACT"
+          },
+          {
+            "id": "4",
+            "text": "SELECT"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "question": "Which SQL statement is applied for returning only different values?",
+        "correctChoice": "4",
+        "choices": [
+          {
+            "id": "1",
+            "text": "SELECT UNIQUE"
+          },
+          {
+            "id": "2",
+            "text": "SELECT INDENTITY"
+          },
+          {
+            "id": "3",
+            "text": "SELECT DIFFERENT"
+          },
+          {
+            "id": "4",
+            "text": "SELECT DISTINCT"
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "question": "Which SQL statement is used to delete data from a table?",
+        "correctChoice": "2",
+        "choices": [
+          {
+            "id": "1",
+            "text": "TRUNCATE"
+          },
+          {
+            "id": "2",
+            "text": "DELETE"
+          },
+          {
+            "id": "3",
+            "text": "REMOVE"
+          },
+          {
+            "id": "4",
+            "text": "None of the above."
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "question": "Which of the SQL statements below deletes all the rows in a table called PricesData?",
+        "correctChoice": "3",
+        "choices": [
+          {
+            "id": "1",
+            "text": "DELETE ALL PricesData"
+          },
+          {
+            "id": "2",
+            "text": "DELETE PricesData"
+          },
+          {
+            "id": "3",
+            "text": "DELETE FROM PricesData"
+          },
+          {
+            "id": "4",
+            "text": "DELETE rows FROM PricesData"
+          }
+        ]
+      }
+    ]
+  }
+]

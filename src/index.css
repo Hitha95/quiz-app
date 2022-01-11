@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+* {
+  font-family: "Dosis", "Lato", "Open Sans", sans-serif, "Roboto";
+  letter-spacing: 0.1rem;
+  --white: #f7f8ef;
+  --green: #bcc761;
+  --purple: #455a6e;
+  --gray: #868e96;
+  --light-gray: #b1b0b0;
+  --red: #bf464d;
+  --primary-color: #bd7f55;
+  --secondary-color: #e9ecf0;
+  --header-height: 10vh;
+  --footer-height: 8vh;
+}
+a {
+  text-decoration: none;
+}
+.button {
+  font-size: 0.8rem;
+  font-weight: 200;
+  height: 2.5rem;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 0.7rem;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  border: 1px solid #bf6f70;
+  background-color: white;
+  color: #bf6f70;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.btn-primary:hover {
+  border: 1px solid white;
+  background: #bf6f70;
+  color: white;
+}
+
+.btn-secondary {
+  border: 1px solid white;
+  background-color: #bdc761;
+  color: var(--white);
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.btn-secondary:hover {
+  border: 1px solid #bdc761;
+  background-color: white;
+  color: #bdc761;
+}
+
+.btn-go-back {
+  padding: 0.5rem;
+  display: flex;
+  margin: auto;
+  border: 1px solid white;
+  background: var(--light-gray);
+  color: white;
+  cursor: pointer;
+}
+
+.btn-go-back:hover {
+  border: 1px solid var(--purple);
+  background: white;
+  color: var(--purple);
+}
+
+@media only screen and (min-width: 500px) {
+  .home-container {
+    margin: 0 0.4rem;
+  }
+  .answer-container {
+    max-width: 100%;
+  }
+}

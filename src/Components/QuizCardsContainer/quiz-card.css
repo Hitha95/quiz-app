@@ -1,0 +1,26 @@
+.quiz-card {
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  background: var(--primary-color);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.quiz-card img {
+  width: 60%;
+  height: 70%;
+  object-fit: contain;
+}
+.quiz-card h3,
+h4 {
+  display: flex;
+  margin: 0.5rem auto;
+  text-align: center;
+  justify-content: space-around;
+}

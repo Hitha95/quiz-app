@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background: var(--primary-color);
+  height: 10vh;
+  padding-left: 9rem;
+  font-size: 1.8rem;
+}
+
+.header h2 {
+  font-weight: 500;
+  color: var(--secondary-color);
+}

@@ -1,0 +1,137 @@
+.quiz-container {
+  width: 60%;
+  height: 85vh;
+  margin: 0 auto;
+  background: #f8f9fa;
+}
+.submit-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.confirm-form {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 30px;
+}
+
+.confirm-form h3 {
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.confirm-form p {
+  font-size: 0.85rem;
+}
+
+.confirm-form div {
+  display: flex;
+  justify-content: center;
+}
+
+.quiz-name {
+  color: var(--purple);
+  font-weight: 700;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 0;
+}
+
+.quiz-container h4 {
+  display: flex;
+  color: var(--purple);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.quiz-container > h4::before,
+.quiz-container > h4::after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 0.5px solid var(--primary-color);
+  margin: auto 10px;
+}
+.question-container {
+  max-width: 650px;
+  padding: 1rem;
+  margin: 0 auto 1rem;
+}
+
+.choices-container {
+  padding-left: 0px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.choice-item {
+  border: 1px solid var(--primary-color);
+  padding: 0.5rem;
+  border-radius: 10px;
+  text-align: start;
+  margin: 0.5rem 0;
+  background: white;
+}
+
+.choice-item:hover {
+  background-color: #f1e9e9c4;
+}
+
+.selected {
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 10px;
+  text-align: start;
+  margin: 0.5rem 0;
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.choices-container label {
+  display: flex;
+}
+.choices-container input {
+  visibility: hidden;
+}
+.choice div {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  border: 3px solid var(--primary-color);
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.choice span {
+  display: flex;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .quiz-container {
+    width: 100%;
+  }
+  .question-container {
+    padding: 2rem 3rem;
+  }
+}

@@ -1,0 +1,106 @@
+.answers-container {
+  width: 60%;
+  margin: auto;
+  padding: 1rem 0;
+  background: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+}
+
+.answers-container > h4 {
+  margin: 0.4rem 0;
+  text-align: center;
+}
+
+.answers-container h5 {
+  display: flex;
+  margin: auto;
+}
+
+.quiz-name {
+  color: var(--purple);
+  font-weight: 700;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.answers-list {
+  max-width: 650px;
+  margin: auto;
+}
+
+.answer-card-container {
+  max-width: 650px;
+  padding: 1rem;
+  margin: 0 auto 1rem;
+}
+
+.answer-card-container > h4 {
+  display: flex;
+}
+
+.answer-card-container > h4::before,
+.answer-card-container > h4::after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 0.5px solid var(--purple);
+  margin: auto 10px;
+}
+
+.answer-container {
+  padding-left: 0px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.answer-item {
+  border: 1px solid var(--primary-color);
+  padding: 0.5rem;
+  border-radius: 10px;
+  text-align: start;
+  margin: 0.5rem 0;
+  background: white;
+}
+
+.answer-item-correct {
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 10px;
+  text-align: start;
+  margin: 0.5rem 0;
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.answer-item-wrong {
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 10px;
+  text-align: start;
+  margin: 0.5rem 0;
+  background-color: var(--red);
+  color: var(--white);
+}
+
+.conditional-text {
+  text-align: center;
+  border-radius: 10px;
+  padding: 0.5rem;
+  background: var(--purple);
+  color: white;
+  font-size: 0.9rem;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+@media (max-width: 600px) {
+  .answers-container {
+    width: 100%;
+  }
+  .answers-list {
+    margin: 0 10px;
+  }
+}
